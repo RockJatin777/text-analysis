@@ -28,6 +28,9 @@ function App() {
   const handleReplace = () => {
     const updatedText = text.replaceAll(searchStr, replaceStr);
     setText(updatedText);
+    setReplaceStr("");
+    setSearchStr("");
+
   };
 
   return (
